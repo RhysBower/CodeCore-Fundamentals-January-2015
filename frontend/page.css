@@ -46,6 +46,7 @@ header {
 	width: 30%;
 	height: 50px;
 	background: pink;
+	vertical-align: top;
 }
 
 .secondary-feature {
@@ -63,6 +64,7 @@ header {
 	width: 45%;
 	height: 50px;
 	background: purple;
+	vertical-align: top;
 }
 
 
