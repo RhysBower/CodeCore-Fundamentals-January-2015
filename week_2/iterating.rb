@@ -23,3 +23,18 @@ end
 puts "Capitalized name array"
 
 puts capitalized_name_array
+
+
+puts "Capitalize every word in a sentence"
+
+sentence = "Hello codecore students"
+
+sentence_array = sentence.split(" ")
+
+sentence_array.each do |word|
+	word.capitalize!
+end
+
+sentence = sentence_array.join(" ")
+
+puts sentence
