@@ -1,0 +1,19 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box {
+	width: 100%;
+	height: 100px;
+	background: rgba(244, 67, 54, 0.8);
+	border-radius: 1em;
+}
+
+body {
+	background: url(http://samsuria.com/wp-content/uploads/2014/11/nature_wallpapers_2014.jpg);
+	background-size: cover;
+}

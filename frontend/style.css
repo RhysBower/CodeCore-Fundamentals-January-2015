@@ -1,0 +1,44 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*.important {
+	color: red;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.not-important {
+	color: #ccc;
+}
+
+#main-paragraph {
+	background: yellow;
+}*/
+
+.page-title {
+	text-align: center;
+}
+
+.articles {
+
+}
+
+.col-1, .col-3, .col-4 {
+	display: inline-block;
+	text-align: left;
+	width: 20%;
+	margin: 10px;
+}
+
+.col-2 {
+	display: inline-block;
+	text-align: left;
+	width: 29%;
+	margin: 10px;
+	vertical-align: top;
+}
