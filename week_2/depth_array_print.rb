@@ -11,6 +11,12 @@ end
 
 puts "The good way"
 
+my_array.flatten.each do |number|
+	puts number
+end
+
+puts "The hard way"
+
 def print_array(array)
 	array.each do |element|
 		if element.kind_of?(Array)
