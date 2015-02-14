@@ -2,9 +2,9 @@ my_array = [ [1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3] ]
 
 puts "The bad way"
 
-my_array.each do |element|
-	element.each do |subelement|
-		puts subelement
+my_array.each do |array|
+	array.each do |element|
+		puts element
 	end
 end
 
