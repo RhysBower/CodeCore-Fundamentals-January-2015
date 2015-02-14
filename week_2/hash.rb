@@ -21,3 +21,5 @@ locations.each do |province, cities|
 
 	puts
 end
+
+personal_info = [ { "first_name" => "John", "last_name" => "Doe", "age" => 32 }, { "first_name" => "Jane", "last_name" => "Smith", "age" => 25 } ]
