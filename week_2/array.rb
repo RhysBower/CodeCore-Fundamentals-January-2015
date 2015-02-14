@@ -27,3 +27,9 @@ my_string = "Hello everyone at CodeCore Fundamentals"
 my_string_array = my_string.split(" ")
 
 puts my_string_array
+
+puts "Insert element at begining of array"
+
+my_array.insert(0, "New first element");
+
+puts my_array
