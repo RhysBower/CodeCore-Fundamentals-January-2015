@@ -13,6 +13,6 @@ while true
 	names_array.push(name)
 end
 
-names_array.map { |name| name.capitalize!.reverse! }
+names_array.map! { |name| name.capitalize.reverse }
 
 puts names_array
