@@ -30,6 +30,6 @@ puts my_string_array
 
 puts "Insert element at begining of array"
 
-my_array.insert(0, "New first element");
+my_array.unshift "New first element"
 
 puts my_array
