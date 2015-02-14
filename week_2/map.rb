@@ -1,6 +1,10 @@
 my_array = [ 1, 2,3 ]
 
+puts "Example map usage"
+
 puts my_array.map { |x| x * x }
+
+puts "Dynamic name example"
 
 names_array = []
 
