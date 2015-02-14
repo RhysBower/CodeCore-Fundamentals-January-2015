@@ -7,7 +7,7 @@ buzz = gets.chomp
 fizzbuzz_array = []
 
 for i in 1..100
-	if i % 3 == 0 && i % 5 == 0
+	if i % 15 == 0
 		fizzbuzz_array.push(fizz + buzz)
 	elsif i % 3 == 0
 		fizzbuzz_array.push(fizz)
