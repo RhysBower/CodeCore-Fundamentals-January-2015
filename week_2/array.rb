@@ -19,3 +19,11 @@ puts "delete nill"
 my_array.delete(nil)
 
 puts my_array.length
+
+puts "Split string to array"
+
+my_string = "Hello everyone at CodeCore Fundamentals"
+
+my_string_array = my_string.split(" ")
+
+puts my_string_array
