@@ -10,4 +10,12 @@ puts my_array
 
 puts "flatten array"
 
+my_array.flatten!
+
+puts my_array.length
+
+puts "delete nill"
+
+my_array.delete(nil)
+
 puts my_array.length
