@@ -20,13 +20,10 @@ puts array_to_hash( [ "hello", "greetings", "hola", "hi" ] )
 def most_reccurring_letter(string)
 	array = string.split("")
 
-	letter_hash = {}
+	letter_hash = Hash.new(0)
 
-	array.each do |char|
-		if letter_hash[char.to_sym] == nil
-			letter_hash[char.to_sym] = 0
-		end
-		letter_hash[char.to_sym] = letter_hash[char.to_sym] + 1
+	string.each_char do |char|
+		letter_hash[char.to_sym] += 1
 	end
 
 	greatestCount = 0
