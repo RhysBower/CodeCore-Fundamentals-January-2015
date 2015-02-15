@@ -18,25 +18,13 @@ puts array_to_hash( [ "hello", "greetings", "hola", "hi" ] )
 
 
 def most_reccurring_letter(string)
-	array = string.split("")
-
 	letter_hash = Hash.new(0)
 
 	string.each_char do |char|
-		letter_hash[char.to_sym] += 1
+		letter_hash[char] += 1
 	end
 
-	greatestCount = 0
-	greatestLetter = ""
-
-	letter_hash.each do |letter, count|
-		if count > greatestCount
-			greatestCount = count
-			greatestLetter = letter
-		end
-	end
-
-	greatestLetter
+	letter_hash.max_by{ |k,v| v }[0]
 end
 
 puts "Give me a string and I will tell you what the most repeating letter is? "
