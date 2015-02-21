@@ -1,7 +1,8 @@
 class Bird
+	attr_accessor :name
 
-	def eat
-		puts "I'm being eaten"
+	def initialize(name)
+		@name = name
 	end
 
 end
