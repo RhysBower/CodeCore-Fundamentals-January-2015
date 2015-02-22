@@ -1,7 +1,8 @@
 require "sinatra"
 
 get "/" do
-  "Hello World"
+  @name = params[:name]
+  erb :index
 end
 
 get "/about" do
