@@ -1,6 +1,6 @@
-i = 1
+counter = 50
 
-while i <= 15
-  puts i
-  i += 1
+while counter >= 0
+	puts counter
+	counter = counter - 1
 end
